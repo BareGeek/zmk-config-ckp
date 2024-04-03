@@ -32,10 +32,10 @@
 			bindings = <
 				&trans &bl BL_TOG &bl BL_DEC &bl BL_INC  &rgb_ug RGB_EFR &rgb_ug RGB_EFF &rgb_ug RGB_HUD  &rgb_ug RGB_HUI &rgb_ug RGB_BRD &rgb_ug RGB_BRI &trans &trans &trans &kp PSCRN &kp INS &kp DEL
 				&bt BT_CLR  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9   &kp F10  &kp F11 &kp F12 &trans &kp HOME
-				&bt BT_SEL 0 &trans &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans &kp END
+				&bt BT_SEL 0 &bootloader &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans &kp END
 				&bt BT_SEL 1    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &trans &trans &trans
 				&bt BT_SEL 2 &trans &trans &kp C_AL_CALC &trans &trans &trans &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP &trans  &trans &kp C_VOL_UP &trans
-				&bt BT_SEL 3 &bootloader  &trans              &rgb_ug RGB_TOG                            &trans   &trans  &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT
+				&bt BT_SEL 3 &trans  &trans              &rgb_ug RGB_TOG                            &trans   &trans  &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
